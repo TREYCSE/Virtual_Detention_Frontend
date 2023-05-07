@@ -22,3 +22,12 @@
 1. Django REST Framework
 2. Python (for developers)
 3. Tensorflow w/ BERT for Natural Language Question Answering: Answer questions based off content of a given passage, keeping API rendered, but adding a virtual tutor once ML algorithms with BERT complete and integrated with app!
+
+## Milestones for Virtual Detention expansion! How far could this project go?
+#### Phase 1:
+* connecting to, seeding, and modeling 3rd party API w/ Django ORM
+* Natural Language Question Answering with Tensorflow and BERT
+* Deploying full stack application with Tensorflow.js models
+
+#### Phase 2:
+* create user account/authentication & save progress in user account - cloud engineering nec?
