@@ -19,9 +19,8 @@
 
 #### ToolKit!
 ###### Full Stack Application:
-1. Django REST Framework
-2. Python (for developers)
-3. Tensorflow w/ BERT for Natural Language Question Answering: Answer questions based off content of a given passage, keeping API rendered, but adding a virtual tutor once ML algorithms with BERT complete and integrated with app!
+1. TensorFlow REST Framework
+2. TensorFlowLite w/ BERT for Natural Language Question Answering: Answer questions based off content of a given passage, keeping API rendered, but adding a virtual tutor once ML algorithms with BERT complete and integrated with app!
 
 ## Milestones for Virtual Detention expansion! How far could this project go?
 #### Phase 1:
