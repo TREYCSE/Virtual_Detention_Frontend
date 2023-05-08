@@ -18,9 +18,7 @@
 1. Users will navigate to the tutor page
 
 #### ToolKit!
-###### Full Stack Application:
-1. TensorFlow REST Framework
-2. TensorFlowLite w/ BERT for Natural Language Question Answering: Answer questions based off content of a given passage, keeping API rendered, but adding a virtual tutor once ML algorithms with BERT complete and integrated with app!
+####### React.js and Node.js for Client-end
 
 ## Milestones for Virtual Detention expansion! How far could this project go?
 #### Phase 1:
