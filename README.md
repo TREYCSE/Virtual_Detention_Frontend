@@ -49,9 +49,12 @@
 ### 1. User Experience - The Virtual Detention Tutor
     
 ### 2. Milestones for Virtual Detention expansion! How far could this project go?
-#### Phase 1:
-* Natural Language Question Answering with Tensorflow and BERT
-* Deploying full stack application with Tensorflow.js models
+#### Phase 1: +Deployed full-stack application
+* Natural Language Question Answering with Tensorflow and BERT models rendered as RESTful API returnin JSON to user and storing it as new JSON.
 
-#### Phase 2:
+#### Phase 2: +User Profiles
 * create user account/authentication & save progress in user account - cloud engineering nec?
+    
+#### Phase 3: +The Virtual Detention Classroom
+## use cloud engineering to access big data and render to pages based on topics that students can read through and save progress on
+
