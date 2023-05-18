@@ -45,7 +45,6 @@
 
 ## What is the Full Scope of the Project?
     
-
 ### 1. User Experience - The Virtual Detention Tutor
     
 ### 2. Milestones for Virtual Detention expansion! How far could this project go?
