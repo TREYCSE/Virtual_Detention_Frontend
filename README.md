@@ -46,9 +46,9 @@
 ## What is the Full Scope of the Project?
     
 
-### User Experience - The Virtual Detention Tutor
+### 1. User Experience - The Virtual Detention Tutor
     
-### Milestones for Virtual Detention expansion! How far could this project go?
+### 2. Milestones for Virtual Detention expansion! How far could this project go?
 #### Phase 1:
 * Natural Language Question Answering with Tensorflow and BERT
 * Deploying full stack application with Tensorflow.js models
