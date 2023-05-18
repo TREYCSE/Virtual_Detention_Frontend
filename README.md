@@ -5,7 +5,7 @@
 
 ## Developer Tools
 
-#### ToolKit:
+### ToolKit:
 ###### React.js and Node.js for Client-end API
 
 ### API Documentation
@@ -43,17 +43,17 @@
     }
 <value> is a JSON number (whole or decimal), JSON string, or a JSON object that represents binary data (see the Encoding binary values section below for details). <list> is a list of such values. This format is similar to gRPC's ClassificationRequest and RegressionRequest protos. Both versions accept list of Example objects.
 
-## What is the Full Scope of the Project?
+### What is the Full Scope of the Project?
     
-### 1. User Experience - The Virtual Detention Tutor
+#### 1. User Experience - The Virtual Detention Tutor
     
-### 2. Milestones for Virtual Detention expansion! How far could this project go?
-#### Phase 1: +Deployed full-stack application
+#### 2. Milestones for Virtual Detention expansion! How far could this project go?
+##### Phase 1: +Deployed full-stack application
 * Natural Language Question Answering with Tensorflow and BERT models rendered as RESTful API returnin JSON to user and storing it as new JSON.
 
-#### Phase 2: +User Profiles
+##### Phase 2: +User Profiles
 * Create user account/authentication & save progress in user account - cloud engineering nec?
     
-#### Phase 3: +The Virtual Detention Classroom
+##### Phase 3: +The Virtual Detention Classroom
 * Use cloud engineering to access big data and render to pages based on topics that students can read through and save progress on
 
