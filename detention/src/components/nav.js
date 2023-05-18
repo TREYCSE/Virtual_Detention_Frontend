@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export default function Nav({Tryme , Home}) {
+export default function Nav({Tryme , Home, Response}) {
   return (
     <div>
       <nav className="nav-container">

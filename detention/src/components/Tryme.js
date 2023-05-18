@@ -1,3 +1,5 @@
+import  Navs  from "./nav_2";
+
 export default function Tryme() {
     return (
       <div>
@@ -18,17 +20,9 @@ export default function Tryme() {
                 id = "question"
                 placeholder = "Type Your Question!"
               />
-              <button
-                type = "submit"
-                class = "btn"
-                id = "saveBtn"
-                onClick = "saveScore(event)"
-              >
-                  Get My Answer!🙋‍♂️
-              </button>
           </form>
         </div>
-
+        <Navs Response="/responses"/>
       </div>
 
     );
