@@ -8,7 +8,7 @@
 ### ToolKit:
 ###### React.js and Node.js for Client-end API
 
-### API Documentation
+### API Documentation:
 ##### Tensorflow.js Client-Side RESTful API: https://www.tensorflow.org/tfx/serving/api_rest#encoding_binary_values
 #####  Making Requests/Request format: The request body for the classify and regress APIs must be a JSON object formatted as follows:
 
@@ -41,10 +41,10 @@
         ...
       ]
     }
-<value> is a JSON number (whole or decimal), JSON string, or a JSON object that represents binary data (see the Encoding binary values section below for details). <list> is a list of such values. This format is similar to gRPC's ClassificationRequest and RegressionRequest protos. Both versions accept list of Example objects.
+##### <value> is a JSON number (whole or decimal), JSON string, or a JSON object that represents binary data (see the Encoding binary values section below for details). <list> is a list of such values. This format is similar to gRPC's ClassificationRequest and RegressionRequest protos. Both versions accept list of Example objects.
 
-### What is the Full Scope of the Project?
-    
+### Full Scope of the Project | Summary:
+
 #### 1. User Experience - The Virtual Detention Tutor
     
 #### 2. Milestones for Virtual Detention expansion! How far could this project go?
