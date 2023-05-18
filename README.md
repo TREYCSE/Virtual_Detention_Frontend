@@ -5,7 +5,8 @@
 
 ## Developer Tools
 
-#### ToolKit: React.js and Node.js for Client-end API
+#### ToolKit:
+###### React.js and Node.js for Client-end API
 
 ### API Documentation
 #### Tensorflow.js Client-Side RESTful API: https://www.tensorflow.org/tfx/serving/api_rest#encoding_binary_values
