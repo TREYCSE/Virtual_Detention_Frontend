@@ -1,31 +1,33 @@
 .App {
   text-align: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  align-items: center;
+  color: white;
+  background-color: #282c34;
+  min-height: 120vh;
+  display: flex;
+  flex-direction: column;
 }
-.container:hover {
+.submit:hover  {
   cursor: pointer;
-  box-shadow: 0 0.4rem 2.4rem 0 rgba(150, 17, 154, 1);
+  box-shadow: 0 0.5rem 2.6rem 0 #282c34;
   transform: translateY(-0.1rem);
   transition: transform 150ms;   
 }
-.container {
-  border: thick;
-  border-style: solid;
-  border-color: grey;
-  border-width: 10px;
+.container-big:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 2.4rem 0 rgba(52, 85, 154, 1);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;   
 }
-body {
-  justify-content: center;
-  color: black;
-  font-size: 20px;
+.container-big {
+  border-style: groove;
+  border-color:rgba(110, 17, 104, 1);
+  border-width: 5px;
+  min-height: 150px;
 }
-.App-header {
-  align-items: center;
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container-enlarge {
+  min-height: 160px;
+  min-width: 700px;
 }
