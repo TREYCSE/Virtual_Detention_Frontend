@@ -6,9 +6,7 @@
 ### How Will it Accomplish this Mission?
 ##### Well, just like real-world detention, students have free-reign over what they are learning - which means they can explore topics that maybe they weren't even being exposed to, or even study materials to help for when they go back to the regular classroom!
 
-##What is the Full Scope of the Project?
-1. A full stack application that renders 3rd party API:
-2.
+## What is the Full Scope of the Project?
 
 ### User Experience
 #### Virtual Detention Classroom
