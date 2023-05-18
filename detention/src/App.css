@@ -8,12 +8,21 @@
   min-height: 120vh;
   display: flex;
   flex-direction: column;
+  margin: auto;
+  padding: 10px;
 }
 .response:hover  {
   cursor: pointer;
   box-shadow: 0 0.5rem 2.6rem 0 #282c34;
   transform: translateY(-0.1rem);
   transition: transform 150ms;   
+}
+.responsebtn {
+  border-style: dashed;
+  border-width: thin;
+  border-color: purple;
+  margin: 2px;
+  padding: 2px;
 }
 .container-big:hover {
   cursor: pointer;

@@ -1,4 +1,4 @@
-//function to GET the backend deployed model that generates an answer based off input every time the page is loaded (when the button is clicked)
+//function to GET the backend deployed model that generates an answer based off input every time the page is loaded (when the button/link is clicked)
 export default function Response() {
     return (
       <div>

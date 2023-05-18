@@ -4,7 +4,7 @@ export default function Navs({Response}) {
   return (
     <div>
       <nav className="nav-container">
-          <Link to={Response}> Get My Answer!🙋‍♂️ </Link>
+          <Link className="responsebtn"to={Response}> Get My Answer!🙋‍♂️ </Link>
       </nav>
     </div>
   );
