@@ -9,7 +9,7 @@
 ###### React.js and Node.js for Client-end API
 
 ### API Documentation
-#### Tensorflow.js Client-Side RESTful API: https://www.tensorflow.org/tfx/serving/api_rest#encoding_binary_values
+##### Tensorflow.js Client-Side RESTful API: https://www.tensorflow.org/tfx/serving/api_rest#encoding_binary_values
 #####  Making Requests/Request format: The request body for the classify and regress APIs must be a JSON object formatted as follows:
 
     {
