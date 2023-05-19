@@ -6,7 +6,7 @@
     
 ### Milestones
 ##### Phase 1: Deployed full-stack application
-* Natural Language Question Answering with Tensorflow and BERT models rendered as RESTful API returnin JSON to user and storing it as new JSON.
+* Deploy Natural Language Question Answering with Tensorflow pre-trained BERT SavedModels convererted to JSON and  TensorFlow RESTful API for storing answers as new JSON - TensorFlow cpu and Javscript backend server.
 
 ##### Phase 2: + User Profiles
 * Create user account/authentication & save progress in user account
