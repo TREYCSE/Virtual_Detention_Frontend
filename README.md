@@ -18,7 +18,8 @@
 ###### Users will enter a passage and a question that will be taken in as arguments in the model to output an answer that is rendered on a new output react.js page/component
 
 ### ToolKit:
-###### TensorFlow models w/ Tensorflow Node.js, and React.js for Client-end API in the browser
+###### TensorFlow models w/ Tensorflow Node.js, and React.js for Client-end API in the browser, Docker containerizer & Heroku
+###### TensorFlow models are BERT Q&A models for Natural Language Question Answering: Answer questions based off content of a given passage, serving as a virtual tutor once ML algorithms with BERT complete deployed as RESTful API, can then integrate with React/Node.js frontend! [Typescript TensorFlow models converted to js [using tensorflow converter] and deployed as JSON RESTful API to render output to the frontend using Tensorflow & javascript backend, with React.js & Node.js frontend.]
 
 ### Tensorflow.js Models for Web
 ###### https://www.tensorflow.org/js/tutorials
@@ -193,7 +194,7 @@ In which the text is of string type and represents the answer body, and score is
     }]
     **/
 
-##### TensrFlow & BERT Additional Resources
+##### TensorFlow & BERT QnA Additional Resources
 * Natural Language Question Answering: https://towardsdatascience.com/implementing-question-answering-networks-with-cnns-5ae5f08e312b
 * BERT: https://arxiv.org/abs/1810.04805 , GH: https://github.com/google-research/bert , Example: https://github.com/tensorflow/examples/tree/master/lite/examples/bert_qa/ios
 * Pre-trained TensorFlow.js Models: https://github.com/tensorflow/tfjs-models
