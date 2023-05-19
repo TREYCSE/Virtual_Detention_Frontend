@@ -1,5 +1,5 @@
-# Welcome to the Virtual Detention
-### Front End | User Data + Model Functionality = User Answer
+# Welcome to the Virtual Detention | Front End
+### User Data + Model Functionality = User Answer
 
 ## Full Scope of the Project
 ### Summary:
