@@ -41,11 +41,12 @@ APIs:
 * TensorFlow.js Core, a flexible low-level API for neural networks and numerical computation.
 * TensorFlow.js Layers, a high-level API which implements functionality similar to Keras.
 * TensorFlow.js Data, a simple API to load and prepare data analogous to tf.data.
-* TensorFlow.js Converter, tools to import a TensorFlow SavedModel to TensorFlow.js - what I am using! [https://github.com/tensorflow/tfjs/tree/master/tfjs-converter]
+* TensorFlow.js Converter, tools to import a TensorFlow SavedModel to TensorFlow.js - what I am using! [https://github.com/tensorflow/tfjs/tree/master/tfjs-converter , https://www.tensorflow.org/js/guide/conversion]
 ###### Note: Depending on which type of model you’re trying to convert, you’ll need to pass different arguments to the converter. For example, let’s say you have saved a Keras model named model.h5 to your tmp/ directory. To convert your model using the TensorFlow.js converter, you can run the following command:
 
     $ tensorflowjs_converter --input_format=keras /tmp/model.h5 /tmp/tfjs_model
 ###### This will convert the model at /tmp/model.h5 and output a model.json file along with binary weight files to your tmp/tfjs_model/ directory. More details about the command line arguments corresponding to different model formats can be found at the TensorFlow.js converter README[https://github.com/tensorflow/tfjs/tree/master/tfjs-converter]. The BERT q&a models I selected were TypeScript files so after getting everything imported properly, I converted to json to get TensorFlow.js.
+###### https://www.tensorflow.org/guide/saved_model
 
 * TensorFlow.js Vis, in-browser visualization for TensorFlow.js models
 * TensorFlow.js AutoML, Set of APIs to load and run models produced by AutoML Edge.
