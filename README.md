@@ -60,7 +60,7 @@ Backends/Platforms:
 * TensorFlow.js Node, Node.js platform via TensorFlow C++ adapter.
 * TensorFlow.js React Native, React Native platform via expo-gl adapter.
 
-#### 3.CRUD in TensorFlow
+#### 3. CRUD in TensorFlow
 ###### Method now just allows me to run the model in the browser but there's not much function on the backend server side. However, migrating to JSON REST framework with Mongoose should allow me to store model output in the next stage.
 
 ### BERT Models for Javascript
