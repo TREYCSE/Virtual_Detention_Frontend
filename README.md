@@ -1,18 +1,17 @@
-# Welcome to the Virtual Detention | Full Scope of Project | Front End 
-### User Data + Model Functionality = Model Answer => Backend JSON⁉️
+# Welcome to the Virtual Detention | Full Scope of Project | Front End
 
 ### The Virtual Detention Tutor | User Experience | Intent
 ######  What is this "Virtual Detention"? Simply put, Virtual Detention is where the bad students like me get sent to go subsequent our education after being kicked out of traditional classrooms for our "poor performance". By design, the American education system weeds out many brilliant minds by not accomodating their distinct learning needs --as education is not what the system is aimed to do, rather job preperation and general compliant behavior before entering the workforce to do your equal part in the economy (oops, did I mean to say society?). Nevertheless, Virtual Detention is here to bridge that gap! As all of my original technology aims to do, this application aims to address a need in the daily lives of human, rather the functioning of a failing societal model that was never equitable to begin with. Just like real-world detention, students have free-reign over what they are learning - which means they can explore topics that maybe they weren't even being exposed to, or even study materials to help for when they go back to the regular classroom!
     
 ### Milestones
 ##### Phase 1: Deployed full-stack application
-* Deploy Natural Language Question Answering with Tensorflow pre-trained BERT SavedModels convererted to JSON and  TensorFlow RESTful API for storing answers as new JSON - TensorFlow cpu and Javscript backend server.
+* Deploy Natural Language Question Answering with Tensorflow render to user using Node and React/ pure Node.js backend w/ bert pretrained functional models - w/ my function rendering user's input to page - change form to React State, HOW GET TO FRONTEND? - TensorFlow cpu and Javscript backend server.
 
 ##### Phase 2: + CRUD
-* Method now just allows me to run the model in the browser but there's not much function on the backend server side. However, migrating to JSON REST framework with Mongoose should allow me to store model output in the next stage.
+* Method now just allows me to run the model in the browser but there's not much function on the backend server side. However, migrating to JSON REST framework with Mongoose should allow me to store model output in the next stage. TensorFlow server backend w. bert converted SavedModels in directory and RESTful API for server-server communication w/ CRUD saving answers as new JSON
 
 ##### Phase 3: + Authentication & User Profiles
-* Create user account/authentication & save progress in user account
+* Create user account/authentication & save progress in user account.  ^^ save answers in profile
 
 ##### Phase 4: + Fine-Tuning BERT Q&A
 * Go through Bert's Layers to make inferences and adjustments to the model [potentially switching to Core API which is better for neural networks]
