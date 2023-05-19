@@ -29,7 +29,7 @@
 
 * Develop ML in Node.js: Execute native TensorFlow with the same TensorFlow.js API under the Node.js runtime.
 
-* Run Existing models: Use TensorFlow.js model converters to run pre-existing TensorFlow models right in the browser.  - what I am using⁉️
+* Run Existing models: Use TensorFlow.js model converters to run pre-existing TensorFlow models right in the browser.  - what I am using!
 
 * Retrain Existing models
 Retrain pre-existing ML models using sensor data connected to the browser or other client-side data.
@@ -45,7 +45,7 @@ APIs:
 ###### Note: Depending on which type of model you’re trying to convert, you’ll need to pass different arguments to the converter. For example, let’s say you have saved a Keras model named model.h5 to your tmp/ directory. To convert your model using the TensorFlow.js converter, you can run the following command:
 
     $ tensorflowjs_converter --input_format=keras /tmp/model.h5 /tmp/tfjs_model
-###### This will convert the model at /tmp/model.h5 and output a model.json file along with binary weight files to your tmp/tfjs_model/ directory. More details about the command line arguments corresponding to different model formats can be found at the TensorFlow.js converter README[https://github.com/tensorflow/tfjs/tree/master/tfjs-converter].
+###### This will convert the model at /tmp/model.h5 and output a model.json file along with binary weight files to your tmp/tfjs_model/ directory. More details about the command line arguments corresponding to different model formats can be found at the TensorFlow.js converter README[https://github.com/tensorflow/tfjs/tree/master/tfjs-converter]. The BERT q&a models I selected were TypeScript files so after getting everything imported properly, I converted to json to get TensorFlow.js.
 
 * TensorFlow.js Vis, in-browser visualization for TensorFlow.js models
 * TensorFlow.js AutoML, Set of APIs to load and run models produced by AutoML Edge.
