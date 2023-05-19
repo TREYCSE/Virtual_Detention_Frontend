@@ -94,7 +94,7 @@ Backends/Platforms:
 
 ### BERT Models for Javascript
 
-#### 4. BERT Model Downloading [options]
+#### 1. BERT Model Downloading [options]
 ###### https://www.npmjs.com/package/@tensorflow-models/qna
 There are two main ways to get this model in your JavaScript project: via script tags or by installing it from NPM and using a build tool like Parcel, WebPack, or Rollup.
 
@@ -141,7 +141,7 @@ Note: Please make sure your web page supports utf-8 character set. To achieve th
 
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-#### 5. BERT Model API
+#### 2. BERT Model API
 ##### Loading the model
 When using a script tag, the package is available as qna in the global namespace.
 
