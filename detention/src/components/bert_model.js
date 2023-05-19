@@ -1,18 +1,12 @@
-//function to GET the backend deployed model that generates an answer based off input every time the page is loaded (when the button/link is clicked)
-//conditional:
-//if uonly entered one of the two - give error
-//RESEARCH FUNCTION TO GET API FROM BACKEND AND RENDER TO PAGE & STORE AS JSON
-//LIKE 3RD PARTY DAD JOKE API, WHEN INVOKED BY this function it should generate a response based off what was taken in the other page/function
 // Note: you do not need to import @tensorflow/tfjs here, but make sure you have installed the peer dependencies for tfjs-core and tfjs-converter.
 const qna = require('@tensorflow-models/qna');
-//npm install @tensorflow-models/qna
-
-//trying to install/download everything needed for TS to get rid of errors, then convert to js, then deploy output to API for frontend?
+//npm install @tensorflow-models/qna?
 //pip install tensorflowjs[wizard]
 
 // Load the model.
 const model = qna.load();
 console.log("model is loaded!")
+
 /*
 // Finding the answers
 const answers = model.findAnswers(question, passage);
@@ -24,7 +18,6 @@ const question = "Who is the CEO of Google?"
 const answers1 = model.findAnswers(question, passage);
 console.log(answers1);
 
-
 [{
   text: "Sundar Pichai",
   startIndex: 1143,
@@ -32,11 +25,10 @@ console.log(answers1);
   score: 0.8380282521247864
 }]
 
-
 console.log('Answers: ');
 console.log(answers);
 
-//model = await qna.load();
+model = await qna.load();
 
 */
 
