@@ -2,7 +2,7 @@
 ### User Data + Model Functionality = User Answer
 
 ### The Virtual Detention Tutor | User Experience | Intent
-######  What is this "Virtual Detention"? Simply put, Virtual Detention is where the bad students like me get sent to go subsequent our education after being kicked out of traditional classrooms for our "poor performance". By design, the American education system weeds out many brilliant minds by not accomodating their distinct learning needs --as education is not what the system is aimed to do, rather job preperation and general compliant behavior before entering the workforce to do your equal part in the economy (oops, did I mean to say society?). Nevertheless, Virtual Detention is here to bridge that gap! As all of my original technology aims to do, this application aims to address a need in the daily lives of human, rather the functioning of a failing societal model that was never equitable to begin with. Just like real-world detention, students have free-reign over what they are learning - which means they can explore topics that maybe they weren't even being exposed to, or even study materials to help for when they go back to the regular classroom!   
+######  What is this "Virtual Detention"? Simply put, Virtual Detention is where the bad students like me get sent to go subsequent our education after being kicked out of traditional classrooms for our "poor performance". By design, the American education system weeds out many brilliant minds by not accomodating their distinct learning needs --as education is not what the system is aimed to do, rather job preperation and general compliant behavior before entering the workforce to do your equal part in the economy (oops, did I mean to say society?). Nevertheless, Virtual Detention is here to bridge that gap! As all of my original technology aims to do, this application aims to address a need in the daily lives of human, rather the functioning of a failing societal model that was never equitable to begin with. Just like real-world detention, students have free-reign over what they are learning - which means they can explore topics that maybe they weren't even being exposed to, or even study materials to help for when they go back to the regular classroom!
     
 ### Milestones
 ##### Phase 1: Deployed full-stack application
@@ -58,7 +58,8 @@ Backends/Platforms:
 * TensorFlow.js Node, Node.js platform via TensorFlow C++ adapter.
 * TensorFlow.js React Native, React Native platform via expo-gl adapter.
 
-#### 3. Tensorflow.js Client-Side RESTful API: https://www.tensorflow.org/tfx/serving/api_rest#encoding_binary_values
+#### 3. Tensorflow.js Client-Side RESTful API
+###### https://www.tensorflow.org/tfx/serving/api_rest
 #####  Making Requests/Request format: The request body for the classify and regress APIs must be a JSON object formatted as follows:
 
     {
