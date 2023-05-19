@@ -5,7 +5,7 @@
     
 ### Milestones
 ##### Phase 1: Deployed full-stack application
-* Deploy Natural Language Question Answering with Tensorflow render to user using Node and React/ pure Node.js backend w/ bert pretrained functional models - w/ my function rendering user's input to page - change form to React State, HOW GET TO FRONTEND? - TensorFlow cpu and Javscript backend server.
+* Deploy Natural Language Question Answering with Tensorflow render to user using Node and React/ pure Node.js backend w/ bert pretrained functional models - w/ my function rendering user's input to page - HOW GET TO FRONTEND? - TensorFlow cpu and Javscript backend server.
 
 ##### Phase 2: + CRUD
 * Method now just allows me to run the model in the browser but there's not much function on the backend server side. However, migrating to JSON REST framework with Mongoose should allow me to store model output in the next stage. TensorFlow server backend w. bert converted SavedModels in directory and RESTful API for server-server communication w/ CRUD saving answers as new JSON
