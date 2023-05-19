@@ -60,40 +60,8 @@ Backends/Platforms:
 * TensorFlow.js Node, Node.js platform via TensorFlow C++ adapter.
 * TensorFlow.js React Native, React Native platform via expo-gl adapter.
 
-#### 3. Tensorflow.js Client-Side RESTful API
-###### https://www.tensorflow.org/tfx/serving/api_rest
-#####  Making Requests/Request format: The request body for the classify and regress APIs must be a JSON object formatted as follows:
-
-    {
-      // Optional: serving signature to use.
-      // If unspecifed default serving signature is used.
-      "signature_name": <string>,
-
-      // Optional: Common context shared by all examples.
-      // Features that appear here MUST NOT appear in examples (below).
-      "context": {
-        "<feature_name3>": <value>|<list>
-        "<feature_name4>": <value>|<list>
-      },
-
-      // List of Example objects
-      "examples": [
-        {
-          // Example 1
-          "<feature_name1>": <value>|<list>,
-          "<feature_name2>": <value>|<list>,
-          ...
-        },
-        {
-          // Example 2
-          "<feature_name1>": <value>|<list>,
-          "<feature_name2>": <value>|<list>,
-          ...
-        }
-        ...
-      ]
-    }
-###### "[value]" is a JSON number (whole or decimal), JSON string, or a JSON object that represents binary data (see the Encoding binary values section below for details). <list> is a list of such values. This format is similar to gRPC's ClassificationRequest and RegressionRequest protos. Both versions accept list of Example objects.
+#### 3.CRUD in TensorFlow
+###### Method now just allows me to run the model in the browser but there's not much function on the backend server side. However, migrating to JSON REST framework with Mongoose should allow me to store model output in the next stage.
 
 ### BERT Models for Javascript
 
