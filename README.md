@@ -24,12 +24,14 @@
 
 * Develop ML in the Browser: Use flexible and intuitive APIs to build models from scratch using the low-level JavaScript linear algebra library or the high-level layers API.
 
-* Develop ML in Node.js: Execute native TensorFlow with the same TensorFlow.js API under the Node.js runtime. - what I am using⁉️
+* Develop ML in Node.js: Execute native TensorFlow with the same TensorFlow.js API under the Node.js runtime.
 
 * Run Existing models: Use TensorFlow.js model converters to run pre-existing TensorFlow models right in the browser.  - what I am using⁉️
 
 * Retrain Existing models
 Retrain pre-existing ML models using sensor data connected to the browser or other client-side data.
+
+###### Note: I also have the BERT trained models as ts files to be converted to JSON to be trained and inferenced upon later on, as any model can always use more fine-tuning! But the current API allows me to import the SavedModel and use it without the files of code. I have them in my directory save for making inferences later in phase 3/4 but not needed for actual model to work b/c installed and imported TensorFlow SavedModel that has already been find tuned and is ready to use.
 
 #### 2. TensorFlow.js Backends and API [options]
 ###### This repository contains the logic and scripts that combine several packages: https://github.com/tensorflow/tfjs
