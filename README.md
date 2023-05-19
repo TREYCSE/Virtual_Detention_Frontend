@@ -17,7 +17,8 @@
 ### ToolKit:
 ###### TensorFlow models w/ Tensorflow Node.js, and React.js for Client-end API in the browser
 
-### Tensorflow Models for Web
+### Tensorflow.js Models for Web
+###### https://www.tensorflow.org/js/tutorials
 #### 1. TensorFlow.js Models [options]
 ##### TensorFlow.js is an open-source hardware-accelerated JavaScript library for training and deploying machine learning models.
 
@@ -30,7 +31,7 @@
 * Retrain Existing models
 Retrain pre-existing ML models using sensor data connected to the browser or other client-side data.
 
-#### 2. TensorFlow Backends and API [options]
+#### 2. TensorFlow.js Backends and API [options]
 ###### This repository contains the logic and scripts that combine several packages: https://github.com/tensorflow/tfjs
 
 APIs:
