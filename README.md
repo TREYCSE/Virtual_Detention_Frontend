@@ -193,3 +193,7 @@ In which the text is of string type and represents the answer body, and score is
     }]
     **/
 
+##### TensrFlow BERT Additional Resources
+* Natural Language Question Answering: https://towardsdatascience.com/implementing-question-answering-networks-with-cnns-5ae5f08e312b
+* BERT: https://arxiv.org/abs/1810.04805 , GH: https://github.com/google-research/bert , Example: https://github.com/tensorflow/examples/tree/master/lite/examples/bert_qa/ios
+* Pre-trained TensorFlow.js Models: https://github.com/tensorflow/tfjs-models
