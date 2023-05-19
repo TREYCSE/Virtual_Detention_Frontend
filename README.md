@@ -11,14 +11,11 @@
 ### TensorFlow.js Models [options]
 ##### TensorFlow.js is an open-source hardware-accelerated JavaScript library for training and deploying machine learning models.
 
-* Develop ML in the Browser
-Use flexible and intuitive APIs to build models from scratch using the low-level JavaScript linear algebra library or the high-level layers API.
+* Develop ML in the Browser: Use flexible and intuitive APIs to build models from scratch using the low-level JavaScript linear algebra library or the high-level layers API.
 
-* Develop ML in Node.js - what I am using!
-Execute native TensorFlow with the same TensorFlow.js API under the Node.js runtime.
+* Develop ML in Node.js: Execute native TensorFlow with the same TensorFlow.js API under the Node.js runtime. - what I am using⁉️
 
-*  Run Existing models - what I am using!?
-Use TensorFlow.js model converters to run pre-existing TensorFlow models right in the browser.
+* Run Existing models: Use TensorFlow.js model converters to run pre-existing TensorFlow models right in the browser.  - what I am using⁉️
 
 * Retrain Existing models
 Retrain pre-existing ML models using sensor data connected to the browser or other client-side data.
