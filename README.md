@@ -1,4 +1,4 @@
-# Welcome to the Virtual Detention | Front End | Full Scope of the Project
+# Welcome to the Virtual Detention | Full Scope of the Project | Front End 
 ### User Data + Model Functionality = User Answer
 
 ### The Virtual Detention Tutor | User Experience | Intent
