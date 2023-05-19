@@ -8,10 +8,13 @@
 ##### Phase 1: Deployed full-stack application
 * Deploy Natural Language Question Answering with Tensorflow pre-trained BERT SavedModels convererted to JSON and  TensorFlow RESTful API for storing answers as new JSON - TensorFlow cpu and Javscript backend server.
 
-##### Phase 2: + User Profiles
+##### Phase 2: + CRUD
+* Method now just allows me to run the model in the browser but there's not much function on the backend server side. However, migrating to JSON REST framework with Mongoose should allow me to store model output in the next stage.
+
+##### Phase 3: + Authentication & User Profiles
 * Create user account/authentication & save progress in user account
 
-##### Phase 3: + Fine-Tuning BERT Q&A
+##### Phase 4: + Fine-Tuning BERT Q&A
 * Go through Bert's Layers to make inferences and adjustments to the model [potentially switching to Core API which is better for neural networks]
 
 ### Developer Summary:
@@ -59,9 +62,6 @@ Backends/Platforms:
 * TensorFlow.js WebGPU, WebGPU backend for the browser.
 * TensorFlow.js Node, Node.js platform via TensorFlow C++ adapter.
 * TensorFlow.js React Native, React Native platform via expo-gl adapter.
-
-#### 3. CRUD in TensorFlow
-###### Method now just allows me to run the model in the browser but there's not much function on the backend server side. However, migrating to JSON REST framework with Mongoose should allow me to store model output in the next stage.
 
 ### BERT Models for Javascript
 
