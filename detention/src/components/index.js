@@ -1,12 +1,12 @@
 import Tryme from "./Tryme";
 import Nav from "./nav";
 import Home from "./home";
-import Response from "./responses";
+import BertModel from "./bert_model";
 
 
 export {
   Tryme, 
   Nav, 
   Home, 
-  Response
+  BertModel
 }
