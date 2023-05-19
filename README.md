@@ -64,7 +64,7 @@ Backends/Platforms:
 
 ### BERT Models for Javascript
 
-#### 1. BERT Model Downloading [options]
+#### 1. BERT Model Installation [options]
 ###### https://www.npmjs.com/package/@tensorflow-models/qna
 There are two main ways to get this model in your JavaScript project: via script tags or by installing it from NPM and using a build tool like Parcel, WebPack, or Rollup.
 
