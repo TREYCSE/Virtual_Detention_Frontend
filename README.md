@@ -58,7 +58,43 @@ Backends/Platforms:
 * TensorFlow.js Node, Node.js platform via TensorFlow C++ adapter.
 * TensorFlow.js React Native, React Native platform via expo-gl adapter.
 
-#### 3. BERT Model Downloading [options]
+#### 3. Tensorflow.js Client-Side RESTful API: https://www.tensorflow.org/tfx/serving/api_rest#encoding_binary_values
+#####  Making Requests/Request format: The request body for the classify and regress APIs must be a JSON object formatted as follows:
+
+    {
+      // Optional: serving signature to use.
+      // If unspecifed default serving signature is used.
+      "signature_name": <string>,
+
+      // Optional: Common context shared by all examples.
+      // Features that appear here MUST NOT appear in examples (below).
+      "context": {
+        "<feature_name3>": <value>|<list>
+        "<feature_name4>": <value>|<list>
+      },
+
+      // List of Example objects
+      "examples": [
+        {
+          // Example 1
+          "<feature_name1>": <value>|<list>,
+          "<feature_name2>": <value>|<list>,
+          ...
+        },
+        {
+          // Example 2
+          "<feature_name1>": <value>|<list>,
+          "<feature_name2>": <value>|<list>,
+          ...
+        }
+        ...
+      ]
+    }
+###### "[value]" is a JSON number (whole or decimal), JSON string, or a JSON object that represents binary data (see the Encoding binary values section below for details). <list> is a list of such values. This format is similar to gRPC's ClassificationRequest and RegressionRequest protos. Both versions accept list of Example objects.
+
+### BERT Models for Javascript
+
+#### 4. BERT Model Downloading [options]
 ###### https://www.npmjs.com/package/@tensorflow-models/qna
 There are two main ways to get this model in your JavaScript project: via script tags or by installing it from NPM and using a build tool like Parcel, WebPack, or Rollup.
 
@@ -84,6 +120,7 @@ via Script Tag
         });
       });
     </script>
+
 via NPM
 
     // Note: you do not need to import @tensorflow/tfjs here, but make sure you have installed the peer dependencies for tfjs-core and tfjs-converter.
@@ -104,7 +141,7 @@ Note: Please make sure your web page supports utf-8 character set. To achieve th
 
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-#### 4. BERT Model API
+#### 5. BERT Model API
 ##### Loading the model
 When using a script tag, the package is available as qna in the global namespace.
 
@@ -154,36 +191,3 @@ In which the text is of string type and represents the answer body, and score is
     }]
     **/
 
-#### 5. Tensorflow.js Client-Side RESTful API: https://www.tensorflow.org/tfx/serving/api_rest#encoding_binary_values
-#####  Making Requests/Request format: The request body for the classify and regress APIs must be a JSON object formatted as follows:
-
-    {
-      // Optional: serving signature to use.
-      // If unspecifed default serving signature is used.
-      "signature_name": <string>,
-
-      // Optional: Common context shared by all examples.
-      // Features that appear here MUST NOT appear in examples (below).
-      "context": {
-        "<feature_name3>": <value>|<list>
-        "<feature_name4>": <value>|<list>
-      },
-
-      // List of Example objects
-      "examples": [
-        {
-          // Example 1
-          "<feature_name1>": <value>|<list>,
-          "<feature_name2>": <value>|<list>,
-          ...
-        },
-        {
-          // Example 2
-          "<feature_name1>": <value>|<list>,
-          "<feature_name2>": <value>|<list>,
-          ...
-        }
-        ...
-      ]
-    }
-###### "[value]" is a JSON number (whole or decimal), JSON string, or a JSON object that represents binary data (see the Encoding binary values section below for details). <list> is a list of such values. This format is similar to gRPC's ClassificationRequest and RegressionRequest protos. Both versions accept list of Example objects.
