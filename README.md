@@ -1,11 +1,24 @@
 # Welcome to the Virtual Detention | Front End | Full Scope of the Project
 ### User Data + Model Functionality = User Answer
 
-### Summary:
+### The Virtual Detention Tutor | User Experience | Intent
+######  What is this "Virtual Detention"? Simply put, Virtual Detention is where the bad students like me get sent to go subsequent our education after being kicked out of traditional classrooms for our "poor performance". By design, the American education system weeds out many brilliant minds by not accomodating their distinct learning needs --as education is not what the system is aimed to do, rather job preperation and general compliant behavior before entering the workforce to do your equal part in the economy (oops, did I mean to say society?). Nevertheless, Virtual Detention is here to bridge that gap! As all of my original technology aims to do, this application aims to address a need in the daily lives of human, rather the functioning of a failing societal model that was never equitable to begin with. Just like real-world detention, students have free-reign over what they are learning - which means they can explore topics that maybe they weren't even being exposed to, or even study materials to help for when they go back to the regular classroom!   
+    
+### Milestones for Virtual Detention expansion! How far could this project go?
+##### Phase 1: +Deployed full-stack application
+* Natural Language Question Answering with Tensorflow and BERT models rendered as RESTful API returnin JSON to user and storing it as new JSON.
+
+##### Phase 2: +User Profiles
+* Create user account/authentication & save progress in user account - cloud engineering nec?
+    
+##### Phase 3: +The Virtual Detention Classroom
+* Use cloud engineering to access big data and render to pages based on topics that students can read through and save progress on
+
+### Developer Summary:
 ###### Users will enter a passage and a question that will be taken in as arguments in the model to output an answer that is rendered on a new output react.js page/component
 
 ### ToolKit:
-###### React.js and Node.js for Client-end API
+###### TensorFlow models w/ Tensorflow Node.js, and React.js for Client-end API in the browser
 
 ### Tensorflow Models for Web
 #### TensorFlow.js Models [options]
@@ -73,17 +86,3 @@ Backends/Platforms:
       ]
     }
 ###### "[<value>]" is a JSON number (whole or decimal), JSON string, or a JSON object that represents binary data (see the Encoding binary values section below for details). <list> is a list of such values. This format is similar to gRPC's ClassificationRequest and RegressionRequest protos. Both versions accept list of Example objects.
-
-### The Virtual Detention Tutor | User Experience | Intent
-######  What is this "Virtual Detention"? Simply put, Virtual Detention is where the bad students like me get sent to go subsequent our education after being kicked out of traditional classrooms for our "poor performance". By design, the American education system weeds out many brilliant minds by not accomodating their distinct learning needs --as education is not what the system is aimed to do, rather job preperation and general compliant behavior before entering the workforce to do your equal part in the economy (oops, did I mean to say society?). Nevertheless, Virtual Detention is here to bridge that gap! As all of my original technology aims to do, this application aims to address a need in the daily lives of human, rather the functioning of a failing societal model that was never equitable to begin with. Just like real-world detention, students have free-reign over what they are learning - which means they can explore topics that maybe they weren't even being exposed to, or even study materials to help for when they go back to the regular classroom!   
-    
-### Milestones for Virtual Detention expansion! How far could this project go?
-##### Phase 1: +Deployed full-stack application
-* Natural Language Question Answering with Tensorflow and BERT models rendered as RESTful API returnin JSON to user and storing it as new JSON.
-
-##### Phase 2: +User Profiles
-* Create user account/authentication & save progress in user account - cloud engineering nec?
-    
-##### Phase 3: +The Virtual Detention Classroom
-* Use cloud engineering to access big data and render to pages based on topics that students can read through and save progress on
-
