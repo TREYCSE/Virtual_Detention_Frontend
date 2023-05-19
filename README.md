@@ -8,7 +8,8 @@
 ### ToolKit:
 ###### React.js and Node.js for Client-end API
 
-### TensorFlow.js Models [options]
+### Tensorflow Models for Web
+#### TensorFlow.js Models [options]
 ##### TensorFlow.js is an open-source hardware-accelerated JavaScript library for training and deploying machine learning models.
 
 * Develop ML in the Browser: Use flexible and intuitive APIs to build models from scratch using the low-level JavaScript linear algebra library or the high-level layers API.
@@ -20,7 +21,7 @@
 * Retrain Existing models
 Retrain pre-existing ML models using sensor data connected to the browser or other client-side data.
 
-### TensorFlow Backends and API [options & documentation]
+#### TensorFlow Backends and API [options]
 ###### This repository contains the logic and scripts that combine several packages: https://github.com/tensorflow/tfjs
 
 APIs:
@@ -39,7 +40,7 @@ Backends/Platforms:
 * TensorFlow.js Node, Node.js platform via TensorFlow C++ adapter.
 * TensorFlow.js React Native, React Native platform via expo-gl adapter.
 
-#### API Documentation:
+### API Documentation:
 ###### Tensorflow.js Client-Side RESTful API: https://www.tensorflow.org/tfx/serving/api_rest#encoding_binary_values
 #####  Making Requests/Request format: The request body for the classify and regress APIs must be a JSON object formatted as follows:
 
