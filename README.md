@@ -1,7 +1,6 @@
-# Welcome to the Virtual Detention | Front End
+# Welcome to the Virtual Detention | Front End | Full Scope of the Project
 ### User Data + Model Functionality = User Answer
 
-## Full Scope of the Project
 ### Summary:
 ###### Users will enter a passage and a question that will be taken in as arguments in the model to output an answer that is rendered on a new output react.js page/component
 
