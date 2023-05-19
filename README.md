@@ -11,6 +11,9 @@
 ##### Phase 2: + User Profiles
 * Create user account/authentication & save progress in user account
 
+##### Phase 3: + Fine-Tuning BERT Q&A
+* Go through Bert's Layers to make inferences and adjustments to the model
+
 ### Developer Summary:
 ###### Users will enter a passage and a question that will be taken in as arguments in the model to output an answer that is rendered on a new output react.js page/component
 
@@ -31,7 +34,7 @@
 * Retrain Existing models
 Retrain pre-existing ML models using sensor data connected to the browser or other client-side data.
 
-###### Note: I also have the BERT trained models as ts files to be converted to JSON to be trained and inferenced upon later on, as any model can always use more fine-tuning! But the current API allows me to import the SavedModel and use it without the files of code. I have them in my directory save for making inferences later in phase 3/4 but not needed for actual model to work b/c installed and imported TensorFlow SavedModel that has already been find tuned and is ready to use.
+###### Note: I also have the BERT trained models as ts files to be converted to JSON to be trained and inferenced upon later on, as any model can always use more fine-tuning! But the current API allows me to import the SavedModel and use it without the files of code. I have them in my directory for making inferences later in phase 3 but not needed for actual model to work b/c installed and imported TensorFlow SavedModel that has already been find tuned and is ready to use!
 
 #### 2. TensorFlow.js Backends and API [options]
 ###### This repository contains the logic and scripts that combine several packages: https://github.com/tensorflow/tfjs
