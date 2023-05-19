@@ -85,4 +85,4 @@ Backends/Platforms:
         ...
       ]
     }
-###### "[<value>]" is a JSON number (whole or decimal), JSON string, or a JSON object that represents binary data (see the Encoding binary values section below for details). <list> is a list of such values. This format is similar to gRPC's ClassificationRequest and RegressionRequest protos. Both versions accept list of Example objects.
+###### "[value]" is a JSON number (whole or decimal), JSON string, or a JSON object that represents binary data (see the Encoding binary values section below for details). <list> is a list of such values. This format is similar to gRPC's ClassificationRequest and RegressionRequest protos. Both versions accept list of Example objects.
