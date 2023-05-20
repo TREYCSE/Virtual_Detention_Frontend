@@ -6,8 +6,7 @@
 ### Phases
 ##### Phase 1: Deployed application using Tensorflow.js backend cpu, Node.js and React.js
 * Deploy Natural Language Question Answering with Tensorflow render to user using Node and React/pure Node.js backend w/ bert pretrained functional models w/ original functionality rendering user's input to page.
-
-Milestones
+Phase 1 Milestones
 * connect to backend
 * create react app front end
 * connect react front end to backend
