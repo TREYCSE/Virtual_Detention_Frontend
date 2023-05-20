@@ -13,7 +13,7 @@ Phase 1 Milestones
 * connect react front end to backend
 * load model from backend to front end console
 * render model from backend to front end page
-* add user input functionality to model page (based off global veriables set in compoent tryme page where user inputs passage and question?
+* add user input functionality to model page (based off global veriables set in component tryme page where user inputs passage and question?
 
 ##### Phase 2: + TensorflowServing + Converted SavedModels + data storage/filing system
 * Method now just allows me to run the model in the browser but there's not much function on the backend server side. However, migrating to TensorFlow Serving should allow me to store model output in the next stage by giving my backend more functionality [will get backend as API from 2nd repo once using TF Serving]. Plan to use TensorFlow RESTful API for server-server communication.
