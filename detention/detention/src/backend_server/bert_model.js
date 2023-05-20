@@ -5,19 +5,10 @@ import * as tf from '@tensorflow/tfjs';
 import '@tensorflow/tfjs-backend-cpu';
 import * as qna from "@tensorflow-models/qna";
 //const qna = require('@tensorflow-models/qna');
-//import { assert } from 'console';
+
 console.log ('Using TensorFlow backend: ', tf.getBackend ());
 //loadAndPredict (); - load and predict not defined
 // Adds the CPU backend to the global backend registry.
-// Doing all in one repo until phase 2 TensorFlow
-
-//check in with paresh:
-//working, but messed up my react app- won't open with script - can they not be in the same dir? if so can i recreate react app in same repo different dic? sep pack.jsons that's where I think it is glitching
-//make backend README for when have sep repos for Tensorflow server, for now one repo cause just need backend connection for model - get like imports to front end not like 3rd party API?
-//once recreated and can start and connected, check that model can run, then add input functionality
-//npm install @tensorflow-models/qna?
-//pip install tensorflowjs[wizard]
-//GET BACKEND CONNECTION HERE?
 
 // Load the model.
 const model = qna.load();
@@ -49,5 +40,3 @@ export default function BertModel() {
   </div>
   )
 }
-
-//  {answers1}
