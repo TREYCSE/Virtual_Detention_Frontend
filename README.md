@@ -1,16 +1,16 @@
-# Welcome to the Virtual Detention | Full Scope of Project | Front End
+# Welcome to the Virtual Detention | Full Scope of Project
 
 ### The Virtual Detention Tutor | User Experience | Intent
 ######  What is this "Virtual Detention"? Simply put, Virtual Detention is where the bad students like me get sent to go subsequent our education after being kicked out of traditional classrooms for our "poor performance". By design, the American education system weeds out many brilliant minds by not accomodating their distinct learning needs --as education is not what the system is aimed to do, rather job preperation and general compliant behavior before entering the workforce to do your equal part in the economy (oops, did I mean to say society?). Nevertheless, Virtual Detention is here to bridge that gap! As all of my original technology aims to do, this application aims to address a need in the daily lives of human, rather the functioning of a failing societal model that was never equitable to begin with. Just like real-world detention, students have free-reign over what they are learning - which means they can explore topics that maybe they weren't even being exposed to, or even study materials to help for when they go back to the regular classroom!
     
 ### Milestones
-##### Phase 1: Deployed full-stack application
-* Deploy Natural Language Question Answering with Tensorflow render to user using Node and React/ pure Node.js backend w/ bert pretrained functional models - w/ my function rendering user's input to page - HOW GET TO FRONTEND? - TensorFlow cpu and Javscript backend server.
+##### Phase 1: Deployed application using Tensorflow.js backend cpu, Node.js and React.js
+* Deploy Natural Language Question Answering with Tensorflow render to user using Node and React/pure Node.js backend w/ bert pretrained functional models w/ original functionality rendering user's input to page.
 
-##### Phase 2: + CRUD
-* Method now just allows me to run the model in the browser but there's not much function on the backend server side. However, migrating to JSON REST framework with Mongoose should allow me to store model output in the next stage. TensorFlow server backend w. bert converted SavedModels in directory and RESTful API for server-server communication w/ CRUD saving answers as new JSON
+##### Phase 2: + TensorflowServing + Converted SavedModels + data storage/filing system
+* Method now just allows me to run the model in the browser but there's not much function on the backend server side. However, migrating to TensorFlow Serving should allow me to store model output in the next stage by giving my backend more functionality [will get backend as API from 2nd repo once using TF Serving]. Plan to use TensorFlow RESTful API for server-server communication.
 
-##### Phase 3: + Authentication & User Profiles
+##### Phase 3: + Authentication & User Profiles + CRUD
 * Create user account/authentication & save progress in user account.  ^^ save answers in profile
 
 ##### Phase 4: + Fine-Tuning BERT Q&A
@@ -44,13 +44,7 @@ APIs:
 * TensorFlow.js Core, a flexible low-level API for neural networks and numerical computation.
 * TensorFlow.js Layers, a high-level API which implements functionality similar to Keras.
 * TensorFlow.js Data, a simple API to load and prepare data analogous to tf.data.
-* TensorFlow.js Converter, tools to import a TensorFlow SavedModel to TensorFlow.js - what I am using! [https://github.com/tensorflow/tfjs/tree/master/tfjs-converter , https://www.tensorflow.org/js/guide/conversion]
-###### Note: Depending on which type of model you’re trying to convert, you’ll need to pass different arguments to the converter. For example, let’s say you have saved a Keras model named model.h5 to your tmp/ directory. To convert your model using the TensorFlow.js converter, you can run the following command:
-
-    $ tensorflowjs_converter --input_format=keras /tmp/model.h5 /tmp/tfjs_model
-###### This will convert the model at /tmp/model.h5 and output a model.json file along with binary weight files to your tmp/tfjs_model/ directory. More details about the command line arguments corresponding to different model formats can be found at the TensorFlow.js converter README[https://github.com/tensorflow/tfjs/tree/master/tfjs-converter]. The BERT q&a models I selected were TypeScript files so after getting everything imported properly, I converted to json to get TensorFlow.js.
-###### https://www.tensorflow.org/guide/saved_model
-
+* TensorFlow.js Converter, tools to import a TensorFlow SavedModel to TensorFlow.js - what I will be moving to in Phase 2! [https://github.com/TREYCSE/Virtual_Detention_TensorFlowServing/tree/main]
 * TensorFlow.js Vis, in-browser visualization for TensorFlow.js models
 * TensorFlow.js AutoML, Set of APIs to load and run models produced by AutoML Edge.
 
