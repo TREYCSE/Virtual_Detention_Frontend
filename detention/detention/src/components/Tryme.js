@@ -1,5 +1,6 @@
-import  Navs  from "./nav_2";
+import  Navs  from "./nav_2.js";
 
+//change form to React State
 export default function Tryme() {
     return (
       <div>
@@ -22,7 +23,7 @@ export default function Tryme() {
               />
           </form>
         </div>
-        <Navs Response="/responses"/>
+        <Navs BertModel="/answer"/>
       </div>
 
     );
