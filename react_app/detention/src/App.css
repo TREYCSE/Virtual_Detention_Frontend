@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  align-items: center;
+  color: white;
+  background-color: #282c34;
+  min-height: 120vh;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 10px;
+}
+.response:hover  {
+  cursor: pointer;
+  box-shadow: 0 0.5rem 2.6rem 0 #282c34;
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;   
+}
+.responsebtn {
+  border-style: dashed;
+  border-width: thin;
+  border-color: purple;
+  margin: 2px;
+  padding: 2px;
+}
+.container-big:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 2.4rem 0 rgba(52, 85, 154, 1);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;   
+}
+.container-big {
+  border-style: groove;
+  border-color:rgba(110, 17, 104, 1);
+  border-width: 5px;
+  min-height: 150px;
+}
+.container-enlarge {
+  min-height: 160px;
+  min-width: 700px;
+}
