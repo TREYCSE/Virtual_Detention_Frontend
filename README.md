@@ -11,9 +11,9 @@ Phase 1 Milestones
 * connect to backend
 * create react app front end
 * connect react front end to backend
-* load model from backend to front end console
-* render model from backend to front end page
-* add user input functionality to model page (based off global veriables set in component tryme page where user inputs passage and question?
+* load model from backend to front end console using a sample passage and question
+* add user input functionality to model page
+* render answer to page
 * use Docker to containerize application and deploy to Heroku
 
 ##### Phase 2: + TensorflowServing + Converted SavedModels + data storage/filing system
