@@ -1,8 +1,8 @@
 export default function PassageForm() {
   return (
-    <div className="container-big">
-      <form className="submit">
-        <input className="container-enlarge"
+    <div>
+      <form>
+        <input className="container-big"
             type = "string"
             name = "passage"
             id = "passage"

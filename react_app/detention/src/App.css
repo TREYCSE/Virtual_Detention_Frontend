@@ -8,8 +8,9 @@
   min-height: 120vh;
   display: flex;
   flex-direction: column;
-  margin: auto;
+  margin: 5px;
   padding: 10px;
+  font-size: smaller;
 }
 .response:hover  {
   cursor: pointer;
@@ -34,9 +35,26 @@
   border-style: groove;
   border-color:rgba(110, 17, 104, 1);
   border-width: 5px;
-  min-height: 150px;
+  min-height: 70px;
+  max-width: 500px;
 }
-.container-enlarge {
-  min-height: 160px;
-  min-width: 700px;
+.trybtn {
+  margin: 10px;
+  padding: 5px;
+  min-height: 5px;
+  min-width: 15px;
+  background-color:  lightgrey;
+  color: black;
+}
+
+@media screen and (min-width: 880px) {
+  .container-big {
+    max-width: 800px;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .container-big  {
+    min-width: 900px;
+    }
 }

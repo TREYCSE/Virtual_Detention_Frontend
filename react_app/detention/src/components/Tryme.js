@@ -12,7 +12,7 @@ export default function Tryme() {
   return (
       <div>
 
-        <button onClick= {handleNewNoteClick} >Try me!</button>
+        <button className ="trybtn"onClick= {handleNewNoteClick} >Try me!</button>
           {showForm && <PassageForm handleBtnClick={handleNewNoteClick}/>}
           {showForm && <QuestionForm handleBtnClick={handleNewNoteClick}/>}
           {showForm && <Navs handleBtnClick={handleNewNoteClick} BertModel="/answer"/>}
