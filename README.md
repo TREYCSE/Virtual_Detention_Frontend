@@ -8,12 +8,12 @@
 * Deploy Natural Language Question Answering with Tensorflow render to user using Node and React/pure Node.js backend w/ bert pretrained functional models w/ original functionality rendering user's input to page.
 
 Phase 1 Milestones
-* connect to backend
-* create react app front end
+* connect to tensorflow cpu backend
+* create & code react app front end w/ css
 * connect react front end to backend
-* load model from backend to front end console using a sample passage and question
-* add user input functionality to model page
-* render answer to page
+* load model from backend to front end console using a sample passage and question - the model is loaded but the params(passage, question) are not - error: modelfindAnswer is not a function
+* add user input functionality to model page - added components pages for params and imported them into tryme page, need to import the responses from Forms into model page and set them as the params
+* render answer to page in model page - not sure which way to render if not sure how defining answer for model & params^^ [original syntax provided by BERT model const answers = model.findAnswers provided error still working on resolving]
 * use Docker to containerize application and deploy to Heroku
 
 ##### Phase 2: + TensorflowServing + Converted SavedModels + data storage/filing system
