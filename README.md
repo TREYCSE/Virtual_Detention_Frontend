@@ -11,10 +11,10 @@ Phase 1 Milestones
 * connect to tensorflow cpu backend - complete✅
 * create & code react app front end w/css - complete✅
 * connect react front end to backend - complete✅
-* load model from backend to front end console using a sample passage and question - the model is loaded but the params(passage, question) are not - error: modelfindAnswer is not a function⁉️
+* load model from backend to front end console using a sample passage and question - the model is loaded✅ but the params(passage, question) are not [error: modelfindAnswer is not a function⁉️]
 * add user input functionality to model page - added components pages for params and imported them into tryme page, need to import the responses from Forms into model page and set them as the params⚠️
-* render answer to page in model page - not sure which way to render if not sure how defining answer for model & params^^ [original syntax provided by BERT model const answers = model.findAnswers provided error still working on resolving]⚠️
-* use Docker to containerize application and deploy to Heroku
+* render answer to page in model page - not sure which way to render if not sure how defining answer for model & params^ [original syntax provided by BERT model const answers = model.findAnswers provided error still working on resolving]⚠️
+* 🔜 use Docker to containerize application and deploy to Heroku
 
 ##### Phase 2: + TensorflowServing + Converted SavedModels + data storage/filing system
 * Method now just allows me to run the model in the browser but there's not much function on the backend server side. However, migrating to TensorFlow Serving should allow me to store model output in the next stage by giving my backend more functionality [will get backend as API from 2nd repo once using TF Serving]. Plan to use TensorFlow RESTful API for server-server communication.
