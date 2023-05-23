@@ -59,7 +59,7 @@ APIs:
 
 Backends/Platforms:
 * TensorFlow.js CPU Backend, pure-JS backend for Node.js and the browser. - what I am using! [https://github.com/tensorflow/tfjs/tree/master/tfjs-backend-cpu]
-* TensorFlow.js WebGL Backend, WebGL backend for the browser.
+* TensorFlow.js WebGL Backend, WebGL backend for the browser. - also what I am using! [https://github.com/tensorflow/tfjs/tree/master/tfjs-backend-webgl]
 * TensorFlow.js WASM Backend, WebAssembly backend for the browser.
 * TensorFlow.js WebGPU, WebGPU backend for the browser.
 * TensorFlow.js Node, Node.js platform via TensorFlow C++ adapter.
