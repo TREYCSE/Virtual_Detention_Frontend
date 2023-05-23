@@ -48,15 +48,15 @@ export default function BertModel() {
   answerQuestion();
   
   return (  
-    <div>
+    <div className="input">
 
     <Fragment>
-    Passage <textarea className="passaage" ref={passageRef} rows="38" cols="0"></textarea>
-      
+    Passage <textarea className="passage" ref={passageRef} rows="38" cols="0"></textarea>
+    <hr></hr>  
     Insert Question Here <input className="question" ref={questionRef} size="80"></input>
-
+    <hr></hr>  
     Click me for Answer! <button className='btn' onClick={answerQuestion}></button>      
-      
+    <hr></hr>  
     Answers {answer ? answer.map((ans, idx)=><div><b>Answer {idx+1} - </b>{ans.text} ({ans.score})</div>): ""}
     </Fragment>
 

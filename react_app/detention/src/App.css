@@ -1,10 +1,12 @@
 .App {
   text-align: center;
+  display: flex; 
+  flex-direction: column;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   align-items: center;
   color: white;
-  background-color: yellowgreen;
+  background-color: darkgoldenrod;
   min-height: 120vh;
   display: flex;
   flex-direction: column;
@@ -21,7 +23,7 @@
 .question {
   border-style: dashed;
   border-width: thin;
-  border-color: purple;
+  border-color:rgb(42, 8, 115);
   margin: 2px;
   padding: 2px;
   min-height: 20px;
@@ -34,30 +36,48 @@
 }
 .passage {
   border-style: groove;
-  border-color:rgba(110, 17, 104, 1);
+  border-color:rgb(42, 8, 115);
   border-width: 5px;
-  max-height: 70px;
+  max-height: 100px;
+  width: 550px;
 }
 .btn {
   margin: 10px;
   padding: 5px;
-  min-height: 5px;
-  min-width: 15px;
-  background-color:  lightgrey;
+  min-height: 50px;
+  min-width: 150px;
+  border-color: white;
+  background-color:rgb(42, 8, 115);
   color: black;
 }
 .bertLink {
   font-size: x-small;
 }
+.input {
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
 
 @media screen and (min-width: 880px) {
-  .container-big {
-    max-width: 800px;
+  .passage {
+    max-height: 100px;
+    width: 550px;
+    flex-direction: row;
+  }
+  .btn {
+    min-height: 150px;
+    min-width: 250px;
+    flex-direction: row;
   }
 }
 
 @media screen and (min-width: 1250px) {
-  .container-big  {
-    min-width: 900px;
-    }
+  .passage {
+    max-height: 250px;
+    width: 550px;
+  }
+  .btn {
+    min-height: 50px;
+    min-width: 150px;
+  }
 }
