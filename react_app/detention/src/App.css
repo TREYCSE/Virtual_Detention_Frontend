@@ -4,7 +4,7 @@
   font-size: calc(10px + 2vmin);
   align-items: center;
   color: white;
-  background-color: #282c34;
+  background-color: yellowgreen;
   min-height: 120vh;
   display: flex;
   flex-direction: column;
@@ -12,39 +12,42 @@
   padding: 10px;
   font-size: smaller;
 }
-.response:hover  {
+.question:hover  {
   cursor: pointer;
   box-shadow: 0 0.5rem 2.6rem 0 #282c34;
   transform: translateY(-0.1rem);
   transition: transform 150ms;   
 }
-.responsebtn {
+.question {
   border-style: dashed;
   border-width: thin;
   border-color: purple;
   margin: 2px;
   padding: 2px;
+  min-height: 20px;
 }
-.container-big:hover {
+.passage:hover {
   cursor: pointer;
   box-shadow: 0 0.4rem 2.4rem 0 rgba(52, 85, 154, 1);
   transform: translateY(-0.1rem);
   transition: transform 150ms;   
 }
-.container-big {
+.passage {
   border-style: groove;
   border-color:rgba(110, 17, 104, 1);
   border-width: 5px;
-  min-height: 70px;
-  max-width: 500px;
+  max-height: 70px;
 }
-.trybtn {
+.btn {
   margin: 10px;
   padding: 5px;
   min-height: 5px;
   min-width: 15px;
   background-color:  lightgrey;
   color: black;
+}
+.bertLink {
+  font-size: x-small;
 }
 
 @media screen and (min-width: 880px) {
