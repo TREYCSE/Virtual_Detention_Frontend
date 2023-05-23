@@ -7,13 +7,19 @@
   align-items: center;
   color: white;
   background-color: darkgoldenrod;
-  min-height: 120vh;
+  min-height: 100vh;
   display: flex;
-  flex-direction: column;
   margin: 5px;
   padding: 10px;
   font-size: smaller;
+  font-family: 'IBM Plex Mono', monospace;
 }
+
+.header {
+  display: flex; 
+  flex-direction: column;
+}
+
 .question:hover  {
   cursor: pointer;
   box-shadow: 0 0.5rem 2.6rem 0 #282c34;
@@ -21,8 +27,6 @@
   transition: transform 150ms;   
 }
 .question {
-  border-style: dashed;
-  border-width: thin;
   border-color:rgb(42, 8, 115);
   margin: 2px;
   padding: 2px;
@@ -35,27 +39,29 @@
   transition: transform 150ms;   
 }
 .passage {
-  border-style: groove;
+  border-style: solid;
   border-color:rgb(42, 8, 115);
   border-width: 5px;
   max-height: 100px;
-  width: 550px;
+  min-width: 250px;
 }
 .btn {
   margin: 10px;
   padding: 5px;
-  min-height: 50px;
-  min-width: 150px;
-  border-color: white;
-  background-color:rgb(42, 8, 115);
+  min-height: 20px;
+  min-width: 50px;
   color: black;
+  background-color:rgb(42, 8, 115);
 }
-.bertLink {
-  font-size: x-small;
-}
-.input {
+.userInput {
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  border-color: white;
+}
+.loading {
+  padding: 25px;
+  margin: 25px;
+  background-color:rgb(42, 8, 115);
 }
 
 @media screen and (min-width: 880px) {
