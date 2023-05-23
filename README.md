@@ -4,17 +4,17 @@
 ######  What is this "Virtual Detention"? Simply put, Virtual Detention is where the bad students like me get sent to go subsequent our education after being kicked out of traditional classrooms for our "poor performance". By design, the American education system weeds out many brilliant minds by not accomodating their distinct learning needs --as education is not what the system is aimed to do, rather job preperation and general compliant behavior before entering the workforce to do your equal part in the economy (oops, did I mean to say society?). Nevertheless, Virtual Detention is here to bridge that gap! As all of my original technology aims to do, this application aims to address a need in the daily lives of human, rather the functioning of a failing societal model that was never equitable to begin with. Just like real-world detention, students have free-reign over what they are learning - which means they can explore topics that maybe they weren't even being exposed to, or even study materials to help for when they go back to the regular classroom!
     
 ### Phases
-##### Phase 1: Deployed application using Tensorflow.js backend cpu, Node.js and React.js
-* Deploy Natural Language Question Answering with Tensorflow render to user using Node and React/pure Node.js backend w/ bert pretrained functional models w/ original functionality rendering user's input to page.
+##### Phase 1: Application using Tensorflow.js cpu & WebGL backends, Node.js and React.js
+* Use Tensorflow backend w/ Natural Language Question Answering bert pretrained qna model & React useRef, useState, and useEffect to set the user's input to the model's parameters and render it to the page.
 
 Phase 1 Milestones
 * connect to tensorflow cpu backend - complete✅
-* create & code react app front end w/css - complete✅
+* create & code react app front end w/css - complete✅ - note: making more CSS adjustments before deploying ⚠️
 * connect react front end to backend - complete✅
-* load model from backend to front end console using a sample passage and question - the model is loaded✅ but the params(passage, question) are not [error: caught (in promise) TypeError: Cannot read properties of undefined (reading 'findAnswers']⁉️
-* add user input functionality to model page - added components pages for params and imported them into tryme page, need to import the responses from Forms into model page and set them as the params⚠️
-* render answer to page in model page - not sure which way to render if not sure how defining answer for model & params^ [original syntax provided by BERT model const answers = model.findAnswers provided error still working on resolving]⚠️
-* 🔜 use Docker to containerize application and deploy to Heroku
+* load model from backend to front end console using a sample passage and question - complete✅
+* add user functionality to model page - complete✅
+* render answer to page in model page - complete✅
+* 🔜 Deploy to Heroku
 
 ##### Phase 2: + TensorflowServing + Converted SavedModels + data storage/filing system
 * Method now just allows me to run the model in the browser but there's not much function on the backend server side. However, migrating to TensorFlow Serving should allow me to store model output in the next stage by giving my backend more functionality [will get backend as API from 2nd repo once using TF Serving]. Plan to use TensorFlow RESTful API for server-server communication.
@@ -29,8 +29,8 @@ Phase 1 Milestones
 ###### Users will enter a passage and a question that will be taken in as arguments in the model to output an answer that is rendered on a new output react.js page/component
 
 ### ToolKit:
-###### TensorFlow models w/ Tensorflow Node.js, and React.js for Client-end API in the browser, Docker containerizer & Heroku
-###### TensorFlow models are BERT Q&A models for Natural Language Question Answering: Answer questions based off content of a given passage, serving as a virtual tutor once ML algorithms with BERT complete deployed as RESTful API, can then integrate with React/Node.js frontend! [Typescript TensorFlow models converted to js [using tensorflow converter] and deployed as JSON RESTful API to render output to the frontend using Tensorflow & javascript backend, with React.js & Node.js frontend.]
+##### TensorFlow BERT Model from TensorFlowHub w/ Tensorflow cpu, WebGL, Node.js, React.js & Heroku to deploy
+###### TensorFlow models are BERT Q&A models for Natural Language Question Answering: Answer questions based off content of a given passage, serving as a virtual tutor in The Virtual Detention
 
 ### Tensorflow.js Models for Web
 ###### https://www.tensorflow.org/js/tutorials
@@ -54,6 +54,7 @@ APIs:
 * TensorFlow.js Layers, a high-level API which implements functionality similar to Keras.
 * TensorFlow.js Data, a simple API to load and prepare data analogous to tf.data.
 * TensorFlow.js Converter, tools to import a TensorFlow SavedModel to TensorFlow.js - what I will be moving to in Phase 2! [https://github.com/TREYCSE/Virtual_Detention_TensorFlowServing/tree/main]
+###### [Saved TensorFlow models converted to js [using tensorflow converter] and saved as JSON]
 * TensorFlow.js Vis, in-browser visualization for TensorFlow.js models
 * TensorFlow.js AutoML, Set of APIs to load and run models produced by AutoML Edge.
 
@@ -147,8 +148,9 @@ You can find the answers for a given question and associated passage with the mo
       score: 0.8380282521247864
     }]
 In which the text is of string type and represents the answer body, and score is a number, indicates the confident level. The startIndex is the index of the starting character of the answer in the passage. The endIndex is index of the last character of the answer.
-
+ 
 ##### Here is an example run of the QnA model:
+###### ⚠️note⚠️this does not have any documented success of working with React.js - useRef, useState, and useEffect has experimentally been used in place to set model parameters and render them to the user.
 
     const passage = "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware. It is considered one of the Big Four technology companies, alongside Amazon, Apple, and Facebook. Google was founded in September 1998 by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University in California. Together they own about 14 percent of its shares and control 56 percent of the stockholder voting power through supervoting stock. They incorporated Google as a California privately held company on September 4, 1998, in California. Google was then reincorporated in Delaware on October 22, 2002. An initial public offering (IPO) took place on August 19, 2004, and Google moved to its headquarters in Mountain View, California, nicknamed the Googleplex. In August 2015, Google announced plans to reorganize its various interests as a conglomerate called Alphabet Inc. Google is Alphabet's leading subsidiary and will continue to be the umbrella company for Alphabet's Internet interests. Sundar Pichai was appointed CEO of Google, replacing Larry Page who became the CEO of Alphabet."
     const question = "Who is the CEO of Google?"
