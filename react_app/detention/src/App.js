@@ -6,11 +6,11 @@ import { Tryme, Nav, Home, BertModel} from './components/index.js'
 function App() {
   return (
     <div className="App">
-      <Nav Home="/" Tryme="/tryme" BertModel="/answer"/>
+      <Nav Home="/" Tryme="/tryme" BertModel="/bert"/>
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/tryme" element={<Tryme />}/>
-        <Route path="/answer" element={<BertModel />}/> 
+        <Route path="/bert" element={<BertModel />}/> 
       </Routes>
     </div>
   );
