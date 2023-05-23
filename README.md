@@ -29,8 +29,8 @@ Phase 1 Milestones
 ###### Users will enter a passage and a question that will be taken in as arguments in the model to output an answer that is rendered on a new output react.js page/component
 
 ### ToolKit:
-###### TensorFlow models w/ Tensorflow Node.js, and React.js for Client-end API in the browser, Docker containerizer & Heroku
-###### TensorFlow models are BERT Q&A models for Natural Language Question Answering: Answer questions based off content of a given passage, serving as a virtual tutor once ML algorithms with BERT complete deployed as RESTful API, can then integrate with React/Node.js frontend! [Typescript TensorFlow models converted to js [using tensorflow converter] and deployed as JSON RESTful API to render output to the frontend using Tensorflow & javascript backend, with React.js & Node.js frontend.]
+##### TensorFlow BERT Model from TensorFlowHub w/ Tensorflow cpu, WebGL, Node.js, React.js & Heroku to deploy
+###### TensorFlow models are BERT Q&A models for Natural Language Question Answering: Answer questions based off content of a given passage, serving as a virtual tutor in The Virtual Detention
 
 ### Tensorflow.js Models for Web
 ###### https://www.tensorflow.org/js/tutorials
@@ -54,6 +54,7 @@ APIs:
 * TensorFlow.js Layers, a high-level API which implements functionality similar to Keras.
 * TensorFlow.js Data, a simple API to load and prepare data analogous to tf.data.
 * TensorFlow.js Converter, tools to import a TensorFlow SavedModel to TensorFlow.js - what I will be moving to in Phase 2! [https://github.com/TREYCSE/Virtual_Detention_TensorFlowServing/tree/main]
+###### [Saved TensorFlow models converted to js [using tensorflow converter] and saved as JSON]
 * TensorFlow.js Vis, in-browser visualization for TensorFlow.js models
 * TensorFlow.js AutoML, Set of APIs to load and run models produced by AutoML Edge.
 
@@ -147,9 +148,9 @@ You can find the answers for a given question and associated passage with the mo
       score: 0.8380282521247864
     }]
 In which the text is of string type and represents the answer body, and score is a number, indicates the confident level. The startIndex is the index of the starting character of the answer in the passage. The endIndex is index of the last character of the answer.
-
+ 
 ##### Here is an example run of the QnA model:
-###### ⚠️note⚠️this does not have any documented success of working with React, just Javascript - useRef, UseState, and useEffect has experimentally been used in place to set model parameters and render them to the user.
+###### ⚠️note⚠️this does not have any documented success of working with React.js - useRef, useState, and useEffect has experimentally been used in place to set model parameters and render them to the user.
 
     const passage = "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware. It is considered one of the Big Four technology companies, alongside Amazon, Apple, and Facebook. Google was founded in September 1998 by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University in California. Together they own about 14 percent of its shares and control 56 percent of the stockholder voting power through supervoting stock. They incorporated Google as a California privately held company on September 4, 1998, in California. Google was then reincorporated in Delaware on October 22, 2002. An initial public offering (IPO) took place on August 19, 2004, and Google moved to its headquarters in Mountain View, California, nicknamed the Googleplex. In August 2015, Google announced plans to reorganize its various interests as a conglomerate called Alphabet Inc. Google is Alphabet's leading subsidiary and will continue to be the umbrella company for Alphabet's Internet interests. Sundar Pichai was appointed CEO of Google, replacing Larry Page who became the CEO of Alphabet."
     const question = "Who is the CEO of Google?"
