@@ -63,7 +63,7 @@ export default function BertModel() {
      </div>
   )
 }
-  
+
 /* event.which === 13 &&   
      <header>
       {model == null?
