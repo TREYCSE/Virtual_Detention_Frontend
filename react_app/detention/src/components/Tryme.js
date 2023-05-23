@@ -1,7 +1,4 @@
 import  Navs  from "./nav_2.js";
-//import PassageForm from "./PassageForm.js";
-//import QuestionForm from "./QuestionForm.js";
-//import { useState } from "react";
 
 export default function Tryme() {
   return (
@@ -22,9 +19,12 @@ export default function Tryme() {
   }
 
 /*
-  const [showForm, setShowForm] = useState(false);
-  const handleNewNoteClick = () => {
-    showForm ? setShowForm(false) : setShowForm(true);
+import PassageForm from "./PassageForm.js";
+import QuestionForm from "./QuestionForm.js";
+import { useState } from "react";
+const [showForm, setShowForm] = useState(false);
+const handleNewNoteClick = () => {
+showForm ? setShowForm(false) : setShowForm(true);
   };
         <button className ="trybtn"onClick={handleNewNoteClick} >Try me!</button>
           {showForm && <PassageForm handleBtnClick={handleNewNoteClick}/>}
@@ -61,3 +61,21 @@ export default function PassageForm() {
   )
 }
 */
+
+/*
+import { PassageForm, QuestionForm } from '../components/index.js';
+import React Form from components output from components Tryme.js and set each parameter as it's own form to set each parameter here in the Answers function
+const passage = {PassageForm}
+const question = {QuestionForm}
+  //set parameters to the  input FROM these forms, right now set to the form elements as a whole not strings
+
+const model = await qna.load();
+const model = fetch(qna.load)
+  .then((status) => {
+    console.log(status);
+  })
+  .catch(error => {
+    console.log(`${error}`)
+    console.log("error, oh no something went wrong..")
+  })
+  */
