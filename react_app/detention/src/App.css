@@ -1,12 +1,13 @@
 .App {
   text-align: center;
+  font-size: medium;
   display: flex; 
   flex-direction: column;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   align-items: center;
   color: white;
-  background-color: darkgoldenrod;
+  background: linear-gradient(rgb(207, 166, 3), rgb(39, 219, 255));
   min-height: 100vh;
   display: flex;
   margin: 5px;
@@ -14,12 +15,22 @@
   font-size: smaller;
   font-family: 'IBM Plex Mono', monospace;
 }
-
+img {
+  max-height: 230px;
+  max-width: 230px;
+  justify-content: center;
+  margin: 0 auto;
+  border-color: white;
+  border-style: solid;
+  border-width: thick;
+}
 .header {
   display: flex; 
   flex-direction: column;
 }
-
+.hori {
+  min-width: 230px;
+}
 .question:hover  {
   cursor: pointer;
   box-shadow: 0 0.5rem 2.6rem 0 #282c34;
@@ -27,31 +38,38 @@
   transition: transform 150ms;   
 }
 .question {
-  border-color:rgb(42, 8, 115);
+  border-color: dark grey;
   margin: 2px;
   padding: 2px;
   min-height: 20px;
+  max-width: 150px;
+  border-width: thick;
 }
 .passage:hover {
   cursor: pointer;
-  box-shadow: 0 0.4rem 2.4rem 0 rgba(52, 85, 154, 1);
+  box-shadow: 0 0.4rem 2.4rem 0 rgb(132, 2, 19);
   transform: translateY(-0.1rem);
   transition: transform 150ms;   
 }
+.txt {
+  font-size: x-smalls;
+}
 .passage {
   border-style: solid;
-  border-color:rgb(42, 8, 115);
-  border-width: thin;
+  background-color: dark grey;
+  border-width: thick;
   max-height: 100px;
   min-width: 100px;
+  flex-direction: column;
 }
 .btn {
   margin: 10px;
   padding: 5px;
-  min-height: 10px;
-  min-width: 10px;
+  min-height: 5px;
+  min-width: 5px;
   color: black;
-  background-color:rgb(42, 8, 115);
+  background-color:rgb(17, 1, 1);
+  border-color: white;
 }
 .userInput {
   justify-content: center;
@@ -61,22 +79,31 @@
 .loading {
   padding: 25px;
   margin: 25px;
-  background-color:rgb(42, 8, 115);
+  background-color: dark grey;
+  border-color: white;
+  border-width: thick;
+  border-style: solid;
 }
 
-@media screen and (min-width: 880px) {
+@media screen and (min-width: 800px) {
   .passage {
     max-height: 100px;
-    width: 550px;
-    flex-direction: row;
+    width: 850px;
   }
   .btn {
-    min-height: 150px;
-    min-width: 250px;
+    min-height: 10px;
+    max-width: 1350px;
     flex-direction: row;
   }
+  img {
+    max-height: 300px;
+    max-width: 300px;
 }
-
+  .hori {
+    min-width: 350px;
+  }
+}
+/*
 @media screen and (min-width: 1250px) {
   .passage {
     max-height: 250px;
@@ -84,6 +111,7 @@
   }
   .btn {
     min-height: 50px;
-    min-width: 150px;
+    min-width: 450px;
   }
 }
+*/
