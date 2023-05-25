@@ -9,17 +9,17 @@
 
 Phase 1 Milestones
 * connect to tensorflow cpu backend - complete✅
-* create & code react app front end w/css - complete✅ - note: making more CSS responsive design adjustments before deploying⚠️
+* create & code react app front end w/css - complete✅
 * connect react front end to backend - complete✅
 * load model from backend to front end console using a sample passage and question - complete✅
 * add user functionality to model page - complete✅
 * render answer to page in model page - complete✅
-* 🔜 Deploy to Heroku
+* ⚠️ Deploy to Heroku - in progress of containerizing ⚠️
 
-##### Phase 2: + TensorflowServing + Converted SavedModels + data storage/filing system
-* Method now just allows me to run the model in the browser but there's not much function on the backend server side. However, migrating to TensorFlow Serving should allow me to store model output in the next stage by giving my backend more functionality [will get backend as API from 2nd repo once using TF Serving]. Plan to use TensorFlow RESTful API for server-server communication.
+##### Phase 2: + TensorflowServing ( w/ Converted SavedModels) + model MongoDB CRUD - Started 🚀
+* Method now just allows me to run the model in the browser but there's not much function on the backend server side. In Phase 2, using MongoDB I will store the model's output.
 
-##### Phase 3: + Authentication & User Profiles + CRUD
+##### Phase 3: + Authentication & User Profiles + user CRUD
 * Create user account/authentication & save progress in user account.  ^^ save answers in profile
 
 ##### Phase 4: + Fine-Tuning BERT Q&A
